@@ -147,3 +147,16 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Generated rough-cut working copies; retain original footage outside Git.
+/public/rough-cut-media/
+__pycache__/
+*.py[cod]
+
+# Keep source footage, exported media and temporary downloads out of Git.
+*.mp4
+*.mov
+*.MOV
+*.MP4
+*.m4a
+*.part

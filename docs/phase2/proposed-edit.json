@@ -1,0 +1,222 @@
+{
+  "status": "NON-EXECUTABLE PROPOSAL: partial inventory, not approved; do not import into active timeline",
+  "compositionFps": 30,
+  "targetDurationSeconds": 75,
+  "permittedFinalRangeSeconds": [
+    60,
+    90
+  ],
+  "existingCompositionUntouched": true,
+  "sourceTiming": "Source timestamps are media seconds. fromFrame uses 30 fps composition-time units, NOT original decoded frame indices; variable source frame cadence prevents equating source frame index with seconds*30. Out points are exclusive.",
+  "defaultOutput": {
+    "width": 1080,
+    "height": 1920,
+    "status": "Preserve existing setup; upright source is mostly landscape, so portrait crop feasibility must be approved. Do not stretch or automatically crop out the audience interaction."
+  },
+  "phases": [
+    {
+      "id": "opening",
+      "startFrame": 0,
+      "durationFrames": 240,
+      "direction": "Mysterious opening: brief red-light fragments; reserve space for an actual establishing detail if found."
+    },
+    {
+      "id": "build",
+      "startFrame": 240,
+      "durationFrames": 420,
+      "direction": "Build from clearer performance to closer gestures, tightening shot length."
+    },
+    {
+      "id": "first-impact",
+      "startFrame": 660,
+      "durationFrames": 300,
+      "direction": "First visual impact: available flare shot; musical drop remains unverified."
+    },
+    {
+      "id": "emotional",
+      "startFrame": 960,
+      "durationFrames": 390,
+      "direction": "Let the real proximity and front-row microphone moment breathe; retain intelligible location audio if reviewed."
+    },
+    {
+      "id": "rebuild",
+      "startFrame": 1350,
+      "durationFrames": 330,
+      "direction": "Use audience participation to rebuild momentum."
+    },
+    {
+      "id": "climax",
+      "startFrame": 1680,
+      "durationFrames": 480,
+      "direction": "Increase intensity through actual performance and crowd images; stronger final peak must be selected from remaining inventory."
+    },
+    {
+      "id": "ending",
+      "startFrame": 2160,
+      "durationFrames": 90,
+      "direction": "Resolve on a verified expression or crowd image, then a deliberate audio tail; no fireworks or finale event assumed."
+    }
+  ],
+  "candidateShots": [
+    {
+      "id": "H08",
+      "sourceId": "test-01",
+      "objectKey": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "sourceInSeconds": 24.5,
+      "sourceOutSecondsExclusive": 25.5,
+      "startFrame": 0,
+      "durationFrames": 30,
+      "fromFrame": 735,
+      "rotationDegreesCCW": -90,
+      "rank": 8,
+      "phase": "opening",
+      "approved": false
+    },
+    {
+      "id": "H07",
+      "sourceId": "test-01",
+      "objectKey": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "sourceInSeconds": 8,
+      "sourceOutSecondsExclusive": 10.5,
+      "startFrame": 240,
+      "durationFrames": 75,
+      "fromFrame": 240,
+      "rotationDegreesCCW": -90,
+      "rank": 7,
+      "phase": "build",
+      "approved": false
+    },
+    {
+      "id": "H04",
+      "sourceId": "test-01",
+      "objectKey": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "sourceInSeconds": 4,
+      "sourceOutSecondsExclusive": 5.5,
+      "startFrame": 660,
+      "durationFrames": 45,
+      "fromFrame": 120,
+      "rotationDegreesCCW": -90,
+      "rank": 4,
+      "phase": "first-impact",
+      "approved": false
+    },
+    {
+      "id": "H02",
+      "sourceId": "test-01",
+      "objectKey": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "sourceInSeconds": 30.5,
+      "sourceOutSecondsExclusive": 33.5,
+      "startFrame": 960,
+      "durationFrames": 90,
+      "fromFrame": 915,
+      "rotationDegreesCCW": 90,
+      "rank": 2,
+      "phase": "emotional",
+      "approved": false
+    },
+    {
+      "id": "H01",
+      "sourceId": "test-01",
+      "objectKey": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "sourceInSeconds": 33.5,
+      "sourceOutSecondsExclusive": 35.5,
+      "startFrame": 1050,
+      "durationFrames": 60,
+      "fromFrame": 1005,
+      "rotationDegreesCCW": 90,
+      "rank": 1,
+      "phase": "emotional",
+      "approved": false
+    },
+    {
+      "id": "H05",
+      "sourceId": "test-01",
+      "objectKey": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "sourceInSeconds": 28.5,
+      "sourceOutSecondsExclusive": 30,
+      "startFrame": 1350,
+      "durationFrames": 45,
+      "fromFrame": 855,
+      "rotationDegreesCCW": 90,
+      "rank": 5,
+      "phase": "rebuild",
+      "approved": false
+    },
+    {
+      "id": "H03",
+      "sourceId": "test-01",
+      "objectKey": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "sourceInSeconds": 12,
+      "sourceOutSecondsExclusive": 14.5,
+      "startFrame": 1680,
+      "durationFrames": 75,
+      "fromFrame": 360,
+      "rotationDegreesCCW": -90,
+      "rank": 3,
+      "phase": "climax",
+      "approved": false
+    },
+    {
+      "id": "H06",
+      "sourceId": "test-01",
+      "objectKey": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "sourceInSeconds": 35.5,
+      "sourceOutSecondsExclusive": 38,
+      "startFrame": 2100,
+      "durationFrames": 75,
+      "fromFrame": 1065,
+      "rotationDegreesCCW": 90,
+      "rank": 6,
+      "phase": "climax",
+      "approved": false
+    }
+  ],
+  "unfilledSlots": [
+    {
+      "startFrame": 30,
+      "durationFrames": 210,
+      "reason": "No verified shot selected; requires inventory review."
+    },
+    {
+      "startFrame": 315,
+      "durationFrames": 345,
+      "reason": "No verified shot selected; requires inventory review."
+    },
+    {
+      "startFrame": 705,
+      "durationFrames": 255,
+      "reason": "No verified shot selected; requires inventory review."
+    },
+    {
+      "startFrame": 1110,
+      "durationFrames": 240,
+      "reason": "No verified shot selected; requires inventory review."
+    },
+    {
+      "startFrame": 1395,
+      "durationFrames": 285,
+      "reason": "No verified shot selected; requires inventory review."
+    },
+    {
+      "startFrame": 1755,
+      "durationFrames": 345,
+      "reason": "No verified shot selected; requires inventory review."
+    },
+    {
+      "startFrame": 2175,
+      "durationFrames": 75,
+      "reason": "Ending unresolved; requires inventory review."
+    }
+  ],
+  "selectedDurationSeconds": 16.5,
+  "soundtrack": {
+    "status": "No final soundtrack selected or licensed. Existing concert audio is available; musical drops, lyrics and precise beats not verified.",
+    "direction": "Use a restrained location-audio opening, retain a genuine vocal/crowd moment if intelligible, then build around a cleared track or authorized live recording. Do not fabricate crowd responses or use ASR as evidence of lyrics."
+  },
+  "approvalGate": [
+    "Obtain complete key list and inspect remaining sources",
+    "Review motion, orientation, crop and intelligible audio on selected windows",
+    "Select and clear soundtrack and verify actual beats/drop locations",
+    "Approve complete source-based shot selection and final direction before final rendering"
+  ]
+}

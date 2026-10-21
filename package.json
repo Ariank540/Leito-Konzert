@@ -7,17 +7,27 @@
     "compositions": "remotion compositions src/index.ts",
     "render:test": "remotion render src/index.ts R2ConnectionTest out/r2-test.mp4",
     "render:film": "remotion render src/index.ts LeitoAftermovie out/leito-aftermovie.mp4",
-    "check:r2": "node scripts/check-r2.mjs"
+    "check:r2": "node scripts/check-r2.mjs",
+    "prepare:rough": "python3 scripts/prepare-rough-cut.py",
+    "stills:rough": "node scripts/render-rough-cut.mjs --stills",
+    "render:rough": "node scripts/render-rough-cut.mjs",
+    "verify:rough": "python3 scripts/verify-rough-cut.py",
+    "download:rough": "python3 scripts/download-rough-sources.py"
   },
   "dependencies": {
-    "@remotion/cli": "^4.0.0",
-    "remotion": "^4.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "@remotion/cli": "4.0.537",
+    "remotion": "4.0.537",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "@remotion/bundler": "4.0.537",
+    "@remotion/renderer": "4.0.537"
   },
   "devDependencies": {
-    "typescript": "^5.8.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0"
+    "typescript": "5.9.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  },
+  "engines": {
+    "node": ">=24 <25"
   }
 }

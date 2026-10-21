@@ -1,0 +1,59 @@
+{
+  "file": "out/leito-rough-cut-01.mp4",
+  "bytes": 145318702,
+  "videoFramesDecoded": 2325,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "videoDuration": 77.5,
+  "audioDuration": 77.504,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioChannels": 2,
+  "fullAudioVideoDecode": "passed",
+  "audioMeanDbfs": -17.1,
+  "audioPeakDbfs": -2.4,
+  "blackIntervals": [],
+  "silenceIntervals": [],
+  "semanticAudioReview": "No lyric, song, drop or beat-synchronization claim; source audio only.",
+  "delivery": {
+    "bytes": 145318702,
+    "sha256": "e1194f7a88e890c47fbaf27376af92bf34c2029b6dd3913e574be984c7488faa",
+    "fastStart": true,
+    "atoms": [
+      {
+        "type": "ftyp",
+        "offset": 0,
+        "size": 32
+      },
+      {
+        "type": "moov",
+        "offset": 32,
+        "size": 86059
+      },
+      {
+        "type": "free",
+        "offset": 86091,
+        "size": 8
+      },
+      {
+        "type": "mdat",
+        "offset": 86099,
+        "size": 145232603
+      }
+    ]
+  },
+  "color": {
+    "pixelFormat": "yuv420p",
+    "range": "tv",
+    "matrix": "bt709"
+  },
+  "sources": 13,
+  "shots": 28,
+  "originalPictureTimingsPreserved": true,
+  "interactionFilmSeconds": [
+    37.5,
+    43.5
+  ],
+  "renderedWith": "Remotion LeitoAftermovie; delivery-only color normalization after the native render"
+}

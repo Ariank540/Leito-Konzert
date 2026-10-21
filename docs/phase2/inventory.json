@@ -1,0 +1,49 @@
+{
+  "inventoryComplete": false,
+  "listingResult": "Fresh boto3 SigV4 ListObjectsV2 via HTTPS proxy: HTTP 403 SignatureDoesNotMatch. Account and bucket configured; credential variables are network-proxy placeholders. No keys returned.",
+  "knownObjectCount": 1,
+  "completeObjectKeyListAvailable": false,
+  "requiredToComplete": [
+    "Deliver existing R2_ACCESS_KEY_ID and R2_SECRET_ACCESS_KEY securely as local runtime signing credentials instead of proxy placeholders, or provide S3-aware request signing",
+    "Alternatively provide complete uploads/ object-key export, including every page; do not paste secret values in chat"
+  ],
+  "objects": [
+    {
+      "id": "test-01",
+      "key": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "originalFilename": "20261021_101517_photo_1792570283_0_50D52B.mov",
+      "localOriginal": "out/r2-source.mov",
+      "registeredInExistingSource": "src/media.ts",
+      "bytes": 101897992,
+      "sha256": "c30c9433cff8c934e672e595a0b3c7c23ef1df95fccef48de94986ac29d7b779",
+      "durationSeconds": 45.776667,
+      "encodedWidth": 1080,
+      "encodedHeight": 1920,
+      "videoCodec": "h264",
+      "pixelFormat": "yuv420p",
+      "nominalFrameRate": "30/1",
+      "averageFrameRate": "525300/13733",
+      "decodedVideoFrames": 1751,
+      "primaryAudio": {
+        "codec": "aac",
+        "channels": 2,
+        "sampleRate": 48000,
+        "durationSeconds": 45.775,
+        "decodeVerified": true
+      },
+      "auxiliaryAudio": {
+        "tag": "apac",
+        "channels": 4,
+        "decoderUnavailable": true,
+        "requiredForEdit": false
+      },
+      "orientation": "Pixel contents rotate during recording. Early performance is upright after 90 degrees clockwise; later crowd/front-row footage after 90 degrees counterclockwise. Camera roll is not constant across the whole file.",
+      "fullMetadata": "out/phase2/source-metadata.json",
+      "sourceAudioSemanticReview": "Not auditioned; signal analysis and decoding only. ASR model download blocked by proxy HTTP 403. No transcript, song identity or verified drop claimed.",
+      "visualReview": "92 source frames sampled every 0.5 s plus 26 frames every 0.1 s around the microphone moment; this is not real-time continuous playback."
+    }
+  ],
+  "expectedCountFromUser": 25,
+  "newlyAnalyzedVideosThisRetry": 0,
+  "previouslyFrameReviewedVideos": 1
+}

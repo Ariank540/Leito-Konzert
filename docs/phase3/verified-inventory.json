@@ -1,0 +1,2642 @@
+{
+  "manifestCommit": "63982d91675e7860cdc002c29b63597bfe709ec4",
+  "entries": 25,
+  "uniqueObjectKeys": 25,
+  "httpRangePassed": 25,
+  "downloaded": 25,
+  "downloadFailures": [],
+  "totalBytes": 3172891753,
+  "totalDurationSeconds": 2027.673464,
+  "byteIdenticalGroups": [
+    [
+      "concert-19",
+      "concert-25"
+    ]
+  ],
+  "uniqueFileHashes": 24,
+  "visualFrameSurveysCompleted": 25,
+  "primaryAudioTechnicalAnalysesCompleted": 25,
+  "audioSemanticReviewsCompleted": 0,
+  "completeAudiovisualContentReviewsClaimed": 0,
+  "sources": [
+    {
+      "id": "concert-01",
+      "key": "uploads/20261019_131612_photo_1792408171_1_0A0D82.mov",
+      "filename": "20261019_131612_photo_1792408171_1_0A0D82.mov",
+      "format": "mov",
+      "sizeMB": 18.46,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261019_131612_photo_1792408171_1_0A0D82.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261019_131612_photo_1792408171_1_0A0D82.mov",
+      "actualBytes": 18458179,
+      "sha256": "6652302caf6d69c61e887109994ce60d821a6967a3a802d3f5fb7984241b3997",
+      "technical": {
+        "id": "concert-01",
+        "filename": "20261019_131612_photo_1792408171_1_0A0D82.mov",
+        "key": "uploads/20261019_131612_photo_1792408171_1_0A0D82.mov",
+        "duration": 6.3017,
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "nominalFps": "60/1",
+        "averageFps": "226800/3781",
+        "videoFramesDeclared": "378",
+        "rotationMetadata": [
+          -90
+        ],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "48000"
+          },
+          {
+            "index": 1,
+            "codec": null,
+            "channels": 4,
+            "sampleRate": "48000"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          0.283333,
+          0.566667,
+          0.85,
+          1.133333,
+          1.416667,
+          1.7,
+          1.985,
+          2.268333,
+          2.551667,
+          2.835,
+          3.118333,
+          3.401667,
+          3.685,
+          3.968333,
+          4.251667,
+          4.535,
+          4.818333,
+          5.101667,
+          5.385,
+          5.668333,
+          5.936667,
+          6.22
+        ],
+        "sheet": "out/phase3/sheets/concert-01.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 6.3133125,
+          "rmsDbfs": -11.46,
+          "peakDbfs": -0.28,
+          "loudestHalfSecond": {
+            "start": 1.5,
+            "end": 2.0,
+            "rmsDbfs": -8.8,
+            "peakDbfs": -0.28
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Black-T-shirt performer by stage edge, arms open around 1.1\u20132.6 s; crowd and white flashes. Phone/finger obstruction at start. Similar sampled visuals to 03; identical primary AAC, different file/video packet hashes. Do not count as a new angle without further comparison.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-01",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-02",
+      "key": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "filename": "20261021_101517_photo_1792570283_0_50D52B.mov",
+      "format": "mov",
+      "sizeMB": 101.9,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_101517_photo_1792570283_0_50D52B.mov",
+      "actualBytes": 101897992,
+      "sha256": "c30c9433cff8c934e672e595a0b3c7c23ef1df95fccef48de94986ac29d7b779",
+      "technical": {
+        "id": "concert-02",
+        "filename": "20261021_101517_photo_1792570283_0_50D52B.mov",
+        "key": "uploads/20261021_101517_photo_1792570283_0_50D52B.mov",
+        "duration": 45.776667,
+        "width": 1080,
+        "height": 1920,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "525300/13733",
+        "videoFramesDeclared": "1751",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "48000"
+          },
+          {
+            "index": 1,
+            "codec": null,
+            "channels": 4,
+            "sampleRate": "48000"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          1.966667,
+          3.935,
+          5.885,
+          7.835,
+          9.785,
+          11.736667,
+          13.686667,
+          15.636667,
+          17.605,
+          19.571667,
+          21.538333,
+          23.505,
+          25.473333,
+          27.44,
+          29.406667,
+          31.373333,
+          33.341667,
+          35.308333,
+          37.275,
+          39.243333,
+          41.21,
+          43.176667,
+          45.143333
+        ],
+        "sheet": "out/phase3/sheets/concert-02.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 45.78,
+          "rmsDbfs": -14.62,
+          "peakDbfs": -0.15,
+          "loudestHalfSecond": {
+            "start": 30.5,
+            "end": 31.0,
+            "rmsDbfs": -8.45,
+            "peakDbfs": -1.27
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Intimate charcoal-shirt performance; changing physical camera roll. Close performance 12\u201314 s and front-row microphone moment 33.5\u201335.5 s. Best as a face-focused crop; preserve the earlier detailed review.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-02",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-03",
+      "key": "uploads/20261021_101732_photo_1792570285_1_505CEE.mov",
+      "filename": "20261021_101732_photo_1792570285_1_505CEE.mov",
+      "format": "mov",
+      "sizeMB": 18.46,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_101732_photo_1792570285_1_505CEE.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_101732_photo_1792570285_1_505CEE.mov",
+      "actualBytes": 18458179,
+      "sha256": "3a131ceb6cce455e9aaf7ac5109883bcb225418f31b60b5edca34c5348214488",
+      "technical": {
+        "id": "concert-03",
+        "filename": "20261021_101732_photo_1792570285_1_505CEE.mov",
+        "key": "uploads/20261021_101732_photo_1792570285_1_505CEE.mov",
+        "duration": 6.3017,
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "nominalFps": "60/1",
+        "averageFps": "226800/3781",
+        "videoFramesDeclared": "378",
+        "rotationMetadata": [
+          -90
+        ],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "48000"
+          },
+          {
+            "index": 1,
+            "codec": null,
+            "channels": 4,
+            "sampleRate": "48000"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          0.283333,
+          0.566667,
+          0.85,
+          1.133333,
+          1.416667,
+          1.7,
+          1.985,
+          2.268333,
+          2.551667,
+          2.835,
+          3.118333,
+          3.401667,
+          3.685,
+          3.968333,
+          4.251667,
+          4.535,
+          4.818333,
+          5.101667,
+          5.385,
+          5.668333,
+          5.936667,
+          6.22
+        ],
+        "sheet": "out/phase3/sheets/concert-03.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 6.3133125,
+          "rmsDbfs": -11.46,
+          "peakDbfs": -0.28,
+          "loudestHalfSecond": {
+            "start": 1.5,
+            "end": 2.0,
+            "rmsDbfs": -8.8,
+            "peakDbfs": -0.28
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Same sampled action as 01: black-T-shirt performer and front-row crowd. Primary AAC matches 01 exactly; video packet hashes differ. Treat as an alternate-copy candidate, not independent coverage.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-03",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-04",
+      "key": "uploads/20261021_101757_photo_1792570296_2_007051.mov",
+      "filename": "20261021_101757_photo_1792570296_2_007051.mov",
+      "format": "mov",
+      "sizeMB": 86.53,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_101757_photo_1792570296_2_007051.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_101757_photo_1792570296_2_007051.mov",
+      "actualBytes": 86534597,
+      "sha256": "9dde2a6bce62dbc0f5b2c7a204ee4ccf10a52dd3fdeea3324fb7b9c54f23f4c2",
+      "technical": {
+        "id": "concert-04",
+        "filename": "20261021_101757_photo_1792570296_2_007051.mov",
+        "key": "uploads/20261021_101757_photo_1792570296_2_007051.mov",
+        "duration": 34.978333,
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "nominalFps": "60000/1001",
+        "averageFps": "961800/20987",
+        "videoFramesDeclared": "1603",
+        "rotationMetadata": [
+          -90
+        ],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "48000"
+          },
+          {
+            "index": 1,
+            "codec": null,
+            "channels": 4,
+            "sampleRate": "48000"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          1.501667,
+          3.003333,
+          4.505,
+          6.006667,
+          7.525,
+          9.025,
+          10.526667,
+          12.026667,
+          13.526667,
+          15.028333,
+          16.528333,
+          18.03,
+          19.53,
+          21.03,
+          22.531667,
+          24.033333,
+          25.535,
+          27.036667,
+          28.538333,
+          30.04,
+          31.541667,
+          33.043333,
+          34.545
+        ],
+        "sheet": "out/phase3/sheets/concert-04.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 34.9853125,
+          "rmsDbfs": -13.85,
+          "peakDbfs": -0.73,
+          "loudestHalfSecond": {
+            "start": 5.5,
+            "end": 6.0,
+            "rmsDbfs": -9.93,
+            "peakDbfs": -1.22
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Flag at 3\u20135 s, black-T-shirt performer and audience. Large camera roll after ~8 s; broad stage/crowd views later. Use early flag texture; later landscape reframing is awkward for portrait output.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-04",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-05",
+      "key": "uploads/20261021_102457_photo_1792570335_3_3B177F.mov",
+      "filename": "20261021_102457_photo_1792570335_3_3B177F.mov",
+      "format": "mov",
+      "sizeMB": 320.21,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_102457_photo_1792570335_3_3B177F.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_102457_photo_1792570335_3_3B177F.mov",
+      "actualBytes": 320209632,
+      "sha256": "8d44dcd85c556f58699102d2f192f248b886556ad7ee778339f2da99d5946682",
+      "technical": {
+        "id": "concert-05",
+        "filename": "20261021_102457_photo_1792570335_3_3B177F.mov",
+        "key": "uploads/20261021_102457_photo_1792570335_3_3B177F.mov",
+        "duration": 131.48,
+        "width": 1080,
+        "height": 1920,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "148625/3287",
+        "videoFramesDeclared": "5945",
+        "rotationMetadata": [
+          90
+        ],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "48000"
+          },
+          {
+            "index": 1,
+            "codec": null,
+            "channels": 4,
+            "sampleRate": "48000"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          5.601667,
+          11.203333,
+          16.803333,
+          22.405,
+          28.006667,
+          33.608333,
+          39.21,
+          44.826667,
+          50.428333,
+          56.03,
+          61.631667,
+          67.233333,
+          72.833333,
+          78.435,
+          84.036667,
+          89.638333,
+          95.24,
+          100.84,
+          106.441667,
+          112.043333,
+          117.645,
+          123.246667,
+          128.846667
+        ],
+        "sheet": "out/phase3/sheets/concert-05.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 131.4973125,
+          "rmsDbfs": -13.11,
+          "peakDbfs": -0.35,
+          "loudestHalfSecond": {
+            "start": 33.0,
+            "end": 33.5,
+            "rmsDbfs": -7.2,
+            "peakDbfs": -1.26
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Long close-stage recording with several performers, mic/hand details and crowd. Display orientation is often inverted after metadata correction; framing frequently cuts faces. Useful backups around 28\u201334 s; not preferred over cleaner sources.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-05",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-06",
+      "key": "uploads/20261021_104830_photo_1792570428_4_794EEF.mov",
+      "filename": "20261021_104830_photo_1792570428_4_794EEF.mov",
+      "format": "mov",
+      "sizeMB": 660.87,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_104830_photo_1792570428_4_794EEF.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_104830_photo_1792570428_4_794EEF.mov",
+      "actualBytes": 660865014,
+      "sha256": "62545a4cc84082ff3697dc201ab26fd576b5c3e52f064606b1ee331f329da44a",
+      "technical": {
+        "id": "concert-06",
+        "filename": "20261021_104830_photo_1792570428_4_794EEF.mov",
+        "key": "uploads/20261021_104830_photo_1792570428_4_794EEF.mov",
+        "duration": 226.711667,
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "nominalFps": "60/1",
+        "averageFps": "8158200/136027",
+        "videoFramesDeclared": "13597",
+        "rotationMetadata": [
+          -90
+        ],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "48000"
+          },
+          {
+            "index": 1,
+            "codec": null,
+            "channels": 4,
+            "sampleRate": "48000"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          9.653333,
+          19.308333,
+          28.961667,
+          38.616667,
+          48.27,
+          57.923333,
+          67.578333,
+          77.231667,
+          86.886667,
+          96.54,
+          106.195,
+          115.848333,
+          125.501667,
+          135.156667,
+          144.81,
+          154.465,
+          164.118333,
+          173.771667,
+          183.426667,
+          193.08,
+          202.735,
+          212.388333,
+          222.043333
+        ],
+        "sheet": "out/phase3/sheets/concert-06.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 226.7293125,
+          "rmsDbfs": -9.09,
+          "peakDbfs": 0.0,
+          "loudestHalfSecond": {
+            "start": 207.5,
+            "end": 208.0,
+            "rmsDbfs": -5.52,
+            "peakDbfs": -0.0
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Long primary-performer coverage, white beams and red LEDs. Front-row faces around 134\u2013135.5 s; strong performer around 143\u2013146 s, 182\u2013184.5 s and 200\u2013203 s. Variable orientation early; later selected windows upright.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-06",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 10.256,
+              "end": 11.376
+            }
+          ],
+          "speechLikeSeconds": 1.12,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-07",
+      "key": "uploads/20261021_113458_photo_1792570428_5_BD211D.mp4",
+      "filename": "20261021_113458_photo_1792570428_5_BD211D.mp4",
+      "format": "mp4",
+      "sizeMB": 64.23,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_113458_photo_1792570428_5_BD211D.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_113458_photo_1792570428_5_BD211D.mp4",
+      "actualBytes": 64226442,
+      "sha256": "165074e5717ed7b020b198cf89cace263444a022d129b9f50a6c7db319f76549",
+      "technical": {
+        "id": "concert-07",
+        "filename": "20261021_113458_photo_1792570428_5_BD211D.mp4",
+        "key": "uploads/20261021_113458_photo_1792570428_5_BD211D.mp4",
+        "duration": 101.066667,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "1795800/60659",
+        "videoFramesDeclared": "2993",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          4.333333,
+          8.635,
+          12.968333,
+          17.27,
+          21.603333,
+          25.905,
+          30.238333,
+          34.54,
+          38.873333,
+          43.193333,
+          47.526667,
+          51.835,
+          56.168333,
+          60.501667,
+          64.835,
+          69.168333,
+          73.501667,
+          77.835,
+          82.168333,
+          86.501667,
+          90.835,
+          95.168333,
+          99.498333
+        ],
+        "sheet": "out/phase3/sheets/concert-07.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 101.075,
+          "rmsDbfs": -11.72,
+          "peakDbfs": -0.14,
+          "loudestHalfSecond": {
+            "start": 43.5,
+            "end": 44.0,
+            "rmsDbfs": -7.18,
+            "peakDbfs": -0.58
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Primary performer and attendee selfies. Opening stage views are sideways; later clear full-body microphone/raised-arm images at 51\u201353 s and 73\u201375 s. Cropped close framing toward end.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-07",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 2.512,
+              "end": 3.92
+            },
+            {
+              "start": 5.36,
+              "end": 6.608
+            },
+            {
+              "start": 6.608,
+              "end": 9.136
+            },
+            {
+              "start": 13.424,
+              "end": 14.736
+            },
+            {
+              "start": 81.168,
+              "end": 83.936
+            },
+            {
+              "start": 83.936,
+              "end": 86.768
+            },
+            {
+              "start": 86.928,
+              "end": 89.072
+            },
+            {
+              "start": 89.072,
+              "end": 91.152
+            },
+            {
+              "start": 91.632,
+              "end": 97.52
+            },
+            {
+              "start": 97.52,
+              "end": 101.075
+            }
+          ],
+          "speechLikeSeconds": 25.763,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-08",
+      "key": "uploads/20261021_115410_photo_1792570470_7_FC8EA8.mov",
+      "filename": "20261021_115410_photo_1792570470_7_FC8EA8.mov",
+      "format": "mov",
+      "sizeMB": 359.41,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_115410_photo_1792570470_7_FC8EA8.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_115410_photo_1792570470_7_FC8EA8.mov",
+      "actualBytes": 359406203,
+      "sha256": "e16b7fa0d49ba56c313b435acae38d36fa70a49f04c1fd7bd90cabbfbaaf1805",
+      "technical": {
+        "id": "concert-08",
+        "filename": "20261021_115410_photo_1792570470_7_FC8EA8.mov",
+        "key": "uploads/20261021_115410_photo_1792570470_7_FC8EA8.mov",
+        "duration": 155.72,
+        "width": 1080,
+        "height": 1920,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "158975/3893",
+        "videoFramesDeclared": "6359",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "48000"
+          },
+          {
+            "index": 1,
+            "codec": null,
+            "channels": 4,
+            "sampleRate": "48000"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          6.635,
+          13.27,
+          19.905,
+          26.556667,
+          33.191667,
+          39.826667,
+          46.461667,
+          53.113333,
+          59.748333,
+          66.383333,
+          73.016667,
+          79.651667,
+          86.286667,
+          92.921667,
+          99.556667,
+          106.208333,
+          112.86,
+          119.495,
+          126.13,
+          132.765,
+          139.4,
+          146.035,
+          152.67
+        ],
+        "sheet": "out/phase3/sheets/concert-08.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 155.732,
+          "rmsDbfs": -11.12,
+          "peakDbfs": 0.0,
+          "loudestHalfSecond": {
+            "start": 34.5,
+            "end": 35.0,
+            "rmsDbfs": -7.45,
+            "peakDbfs": -0.23
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Amber/gold lighting offers contrast to red. Performer reveal 12\u201314.5 s; expressive low-angle performance 18\u201321 s. Many later camera rolls, ceiling shots and obstructions.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-08",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-09",
+      "key": "uploads/20261021_121602_photo_1792570511_8_BFCCB2.mov",
+      "filename": "20261021_121602_photo_1792570511_8_BFCCB2.mov",
+      "format": "mov",
+      "sizeMB": 288.43,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_121602_photo_1792570511_8_BFCCB2.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_121602_photo_1792570511_8_BFCCB2.mov",
+      "actualBytes": 288427422,
+      "sha256": "ea1b45f43a61bc14dc6500e7d368af6eeeceb70a6b4e853b2e64a220394cfb63",
+      "technical": {
+        "id": "concert-09",
+        "filename": "20261021_121602_photo_1792570511_8_BFCCB2.mov",
+        "key": "uploads/20261021_121602_photo_1792570511_8_BFCCB2.mov",
+        "duration": 108.01,
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "nominalFps": "60/1",
+        "averageFps": "3439800/64781",
+        "videoFramesDeclared": "5733",
+        "rotationMetadata": [
+          -90
+        ],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "48000"
+          },
+          {
+            "index": 1,
+            "codec": null,
+            "channels": 4,
+            "sampleRate": "48000"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          4.601667,
+          9.203333,
+          13.803333,
+          18.403333,
+          23.003333,
+          27.605,
+          32.205,
+          36.805,
+          41.408333,
+          46.01,
+          50.611667,
+          55.213333,
+          59.815,
+          64.416667,
+          69.018333,
+          73.621667,
+          78.223333,
+          82.825,
+          87.426667,
+          92.028333,
+          96.63,
+          101.233333,
+          105.835
+        ],
+        "sheet": "out/phase3/sheets/concert-09.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 108.0306875,
+          "rmsDbfs": -13.81,
+          "peakDbfs": 0.0,
+          "loudestHalfSecond": {
+            "start": 107.5,
+            "end": 108.0,
+            "rmsDbfs": -8.47,
+            "peakDbfs": -0.19
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Primary performer and front-row audience. Clear performer gesture at 4.5\u20136 s; audience faces/phones at 18\u201321 s. Some later views blocked by foreground heads; not selected at 69\u201371 s after dense review.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-09",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 1.168,
+              "end": 7.584
+            },
+            {
+              "start": 7.584,
+              "end": 10.128
+            },
+            {
+              "start": 10.128,
+              "end": 14.576
+            },
+            {
+              "start": 14.576,
+              "end": 20.112
+            },
+            {
+              "start": 20.112,
+              "end": 24.496
+            },
+            {
+              "start": 25.2,
+              "end": 27.28
+            },
+            {
+              "start": 27.888,
+              "end": 33.2
+            },
+            {
+              "start": 42.896,
+              "end": 44.048
+            }
+          ],
+          "speechLikeSeconds": 31.872,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-10",
+      "key": "uploads/20261021_123024_photo_1792570511_9_EE62F8.mp4",
+      "filename": "20261021_123024_photo_1792570511_9_EE62F8.mp4",
+      "format": "mp4",
+      "sizeMB": 76.27,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_123024_photo_1792570511_9_EE62F8.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_123024_photo_1792570511_9_EE62F8.mp4",
+      "actualBytes": 76268676,
+      "sha256": "9aad6a6c6e375ad1616102889259027d65771dd0b95944a8faa1776c6d319343",
+      "technical": {
+        "id": "concert-10",
+        "filename": "20261021_123024_photo_1792570511_9_EE62F8.mp4",
+        "key": "uploads/20261021_123024_photo_1792570511_9_EE62F8.mp4",
+        "duration": 120.031667,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "1080600/36019",
+        "videoFramesDeclared": "3602",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          5.133333,
+          10.266667,
+          15.4,
+          20.533333,
+          25.666667,
+          30.8,
+          35.931667,
+          41.065,
+          46.198333,
+          51.331667,
+          56.465,
+          61.598333,
+          66.731667,
+          71.865,
+          76.998333,
+          82.131667,
+          87.265,
+          92.398333,
+          97.53,
+          102.663333,
+          107.796667,
+          112.93,
+          118.063333
+        ],
+        "sheet": "out/phase3/sheets/concert-10.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 120.04575,
+          "rmsDbfs": -11.86,
+          "peakDbfs": -0.0,
+          "loudestHalfSecond": {
+            "start": 120.0,
+            "end": 120.04575,
+            "rmsDbfs": -6.29,
+            "peakDbfs": -0.7
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Two-minute performance coverage; close performer around 15 s, wide/sideways shots through middle and front-row lean near 107\u2013118 s. Heavy roll; retain as alternate coverage rather than assuming a specific interaction.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-10",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 0.0,
+              "end": 1.904
+            }
+          ],
+          "speechLikeSeconds": 1.904,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-11",
+      "key": "uploads/20261021_123500_photo_1792570511_10_E1B6E6.mp4",
+      "filename": "20261021_123500_photo_1792570511_10_E1B6E6.mp4",
+      "format": "mp4",
+      "sizeMB": 75.88,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_123500_photo_1792570511_10_E1B6E6.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_123500_photo_1792570511_10_E1B6E6.mp4",
+      "actualBytes": 75882485,
+      "sha256": "670a3f951430e3cea581031c689e781eda0a6b2d723a20a39a835d0b12993cf0",
+      "technical": {
+        "id": "concert-11",
+        "filename": "20261021_123500_photo_1792570511_10_E1B6E6.mp4",
+        "key": "uploads/20261021_123500_photo_1792570511_10_E1B6E6.mp4",
+        "duration": 120.023333,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30000/1001",
+        "averageFps": "714600/24011",
+        "videoFramesDeclared": "3573",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          5.135,
+          10.27,
+          15.405,
+          20.54,
+          25.676667,
+          30.811667,
+          35.946667,
+          41.081667,
+          46.216667,
+          51.351667,
+          56.486667,
+          61.621667,
+          66.758333,
+          71.893333,
+          77.028333,
+          82.163333,
+          87.298333,
+          92.433333,
+          97.568333,
+          102.703333,
+          107.84,
+          112.956667,
+          118.09
+        ],
+        "sheet": "out/phase3/sheets/concert-11.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 120.04575,
+          "rmsDbfs": -10.89,
+          "peakDbfs": -0.12,
+          "loudestHalfSecond": {
+            "start": 7.0,
+            "end": 7.5,
+            "rmsDbfs": -8.02,
+            "peakDbfs": -0.67
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Alternating primary performer, supporting graphic-shirt performer, crowd and arm gestures. Bright flares and occlusions; primary performer at ~61 s, supporting performer at ~102 s. Backup energy inserts.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-11",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-12",
+      "key": "uploads/20261021_123933_photo_1792570511_11_158A75.mp4",
+      "filename": "20261021_123933_photo_1792570511_11_158A75.mp4",
+      "format": "mp4",
+      "sizeMB": 76.21,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_123933_photo_1792570511_11_158A75.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_123933_photo_1792570511_11_158A75.mp4",
+      "actualBytes": 76213360,
+      "sha256": "7b2d86c21ffa9eb215ec10e07f00f16551c390bbdb85c22e6ae9181f9a13cc6d",
+      "technical": {
+        "id": "concert-12",
+        "filename": "20261021_123933_photo_1792570511_11_158A75.mp4",
+        "key": "uploads/20261021_123933_photo_1792570511_11_158A75.mp4",
+        "duration": 120.031667,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "1080600/36019",
+        "videoFramesDeclared": "3602",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          5.133333,
+          10.266667,
+          15.4,
+          20.533333,
+          25.666667,
+          30.8,
+          35.931667,
+          41.065,
+          46.198333,
+          51.331667,
+          56.465,
+          61.598333,
+          66.731667,
+          71.865,
+          76.998333,
+          82.131667,
+          87.265,
+          92.398333,
+          97.531667,
+          102.665,
+          107.796667,
+          112.93,
+          118.063333
+        ],
+        "sheet": "out/phase3/sheets/concert-12.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 120.04575,
+          "rmsDbfs": -10.16,
+          "peakDbfs": -0.15,
+          "loudestHalfSecond": {
+            "start": 120.0,
+            "end": 120.04575,
+            "rmsDbfs": -5.64,
+            "peakDbfs": -0.74
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Clear primary-performer frontal coverage, yellow shoes, red/white stage light. Selected 39\u201341 s has good face visibility and approaching motion. Later closer microphone shots at ~112\u2013118 s.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-12",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-13",
+      "key": "uploads/20261021_124554_photo_1792570511_12_37C3C7.mp4",
+      "filename": "20261021_124554_photo_1792570511_12_37C3C7.mp4",
+      "format": "mp4",
+      "sizeMB": 76.11,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_124554_photo_1792570511_12_37C3C7.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_124554_photo_1792570511_12_37C3C7.mp4",
+      "actualBytes": 76109745,
+      "sha256": "8343f656b5a849a260be48c636b4a98a6959685f2269faf2ac9b884fe5d4aeea",
+      "technical": {
+        "id": "concert-13",
+        "filename": "20261021_124554_photo_1792570511_12_37C3C7.mp4",
+        "key": "uploads/20261021_124554_photo_1792570511_12_37C3C7.mp4",
+        "duration": 120.005,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "1073400/36011",
+        "videoFramesDeclared": "3578",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          5.135,
+          10.263333,
+          15.396667,
+          20.53,
+          25.663333,
+          30.796667,
+          35.93,
+          41.061667,
+          46.195,
+          51.328333,
+          56.461667,
+          61.595,
+          66.728333,
+          71.861667,
+          76.995,
+          82.128333,
+          87.24,
+          92.375,
+          97.505,
+          102.638333,
+          107.771667,
+          112.903333,
+          118.036667
+        ],
+        "sheet": "out/phase3/sheets/concert-13.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 120.0225,
+          "rmsDbfs": -11.88,
+          "peakDbfs": -0.26,
+          "loudestHalfSecond": {
+            "start": 52.0,
+            "end": 52.5,
+            "rmsDbfs": -7.88,
+            "peakDbfs": -0.39
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Strong medium/close primary-performer coverage. Selected 39\u201342 s, 70\u201373 s and 102\u2013104 s. Audience self-view around 87\u201392 s; occasional flares and hands in foreground.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-13",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 11.184,
+              "end": 12.368
+            },
+            {
+              "start": 12.432,
+              "end": 14.128
+            },
+            {
+              "start": 23.824,
+              "end": 26.912
+            },
+            {
+              "start": 26.912,
+              "end": 28.4
+            },
+            {
+              "start": 28.624,
+              "end": 31.312
+            },
+            {
+              "start": 36.08,
+              "end": 38.288
+            },
+            {
+              "start": 41.392,
+              "end": 45.584
+            },
+            {
+              "start": 45.584,
+              "end": 50.768
+            },
+            {
+              "start": 52.464,
+              "end": 64.336
+            },
+            {
+              "start": 64.624,
+              "end": 66.16
+            },
+            {
+              "start": 67.12,
+              "end": 69.68
+            },
+            {
+              "start": 71.28,
+              "end": 73.104
+            },
+            {
+              "start": 73.104,
+              "end": 76.112
+            },
+            {
+              "start": 77.296,
+              "end": 78.992
+            },
+            {
+              "start": 85.072,
+              "end": 87.536
+            },
+            {
+              "start": 100.624,
+              "end": 101.776
+            },
+            {
+              "start": 114.448,
+              "end": 115.68
+            },
+            {
+              "start": 115.68,
+              "end": 117.232
+            },
+            {
+              "start": 117.904,
+              "end": 120.022
+            }
+          ],
+          "speechLikeSeconds": 52.742,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-14",
+      "key": "uploads/20261021_125005_photo_1792570512_13_B9D2A3.mp4",
+      "filename": "20261021_125005_photo_1792570512_13_B9D2A3.mp4",
+      "format": "mp4",
+      "sizeMB": 19.32,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125005_photo_1792570512_13_B9D2A3.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125005_photo_1792570512_13_B9D2A3.mp4",
+      "actualBytes": 19317179,
+      "sha256": "3cb592a72f5ca5bbaa390f8ee8f0f58823de07c638764e265d0699ae2915f2ee",
+      "technical": {
+        "id": "concert-14",
+        "filename": "20261021_125005_photo_1792570512_13_B9D2A3.mp4",
+        "key": "uploads/20261021_125005_photo_1792570512_13_B9D2A3.mp4",
+        "duration": 30.283333,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30000/1001",
+        "averageFps": "58600/2021",
+        "videoFramesDeclared": "879",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          1.3,
+          2.601667,
+          3.901667,
+          5.201667,
+          6.501667,
+          7.801667,
+          9.103333,
+          10.403333,
+          11.703333,
+          13.003333,
+          14.305,
+          15.605,
+          16.905,
+          18.206667,
+          19.506667,
+          20.806667,
+          22.106667,
+          23.415,
+          24.715,
+          26.015,
+          27.415,
+          28.715,
+          30.015
+        ],
+        "sheet": "out/phase3/sheets/concert-14.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 30.300625,
+          "rmsDbfs": -12.14,
+          "peakDbfs": -0.36,
+          "loudestHalfSecond": {
+            "start": 20.5,
+            "end": 21.0,
+            "rmsDbfs": -8.3,
+            "peakDbfs": -0.6
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Short mixed stage/audience clip; red-lit foreground attendee gestures and smiles at 24\u201327 s. Very dark fragment near 27 s and changing camera roll earlier. Reaction is associative, not proven synchronized with 21.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-14",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 14.64,
+              "end": 16.624
+            },
+            {
+              "start": 19.568,
+              "end": 25.264
+            }
+          ],
+          "speechLikeSeconds": 7.68,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-15",
+      "key": "uploads/20261021_125031_photo_1792570512_14_560720.mp4",
+      "filename": "20261021_125031_photo_1792570512_14_560720.mp4",
+      "format": "mp4",
+      "sizeMB": 26.71,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125031_photo_1792570512_14_560720.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125031_photo_1792570512_14_560720.mp4",
+      "actualBytes": 26708603,
+      "sha256": "35fc1df56af27990c7134a3bab89a791293c50c2e9ec62cea315418c5f1ae1d3",
+      "technical": {
+        "id": "concert-15",
+        "filename": "20261021_125031_photo_1792570512_14_560720.mp4",
+        "key": "uploads/20261021_125031_photo_1792570512_14_560720.mp4",
+        "duration": 42.016667,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30000/1001",
+        "averageFps": "756600/25229",
+        "videoFramesDeclared": "1261",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          1.8,
+          3.601667,
+          5.401667,
+          7.203333,
+          9.003333,
+          10.803333,
+          12.605,
+          14.405,
+          16.205,
+          18.006667,
+          19.806667,
+          21.608333,
+          23.408333,
+          25.208333,
+          27.01,
+          28.81,
+          30.611667,
+          32.411667,
+          34.211667,
+          36.013333,
+          37.813333,
+          39.615,
+          41.415
+        ],
+        "sheet": "out/phase3/sheets/concert-15.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 42.0266875,
+          "rmsDbfs": -11.61,
+          "peakDbfs": -0.0,
+          "loudestHalfSecond": {
+            "start": 17.5,
+            "end": 18.0,
+            "rmsDbfs": -7.56,
+            "peakDbfs": -0.5
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Supporting performer in graphic shirt/cap, crowd pointing and raised arm. Selected 16\u201318 s supplies a brief supporting-performer energy insert. Much of later clip rotates sideways.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-15",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-16",
+      "key": "uploads/20261021_125146_photo_1792570512_15_162050.mp4",
+      "filename": "20261021_125146_photo_1792570512_15_162050.mp4",
+      "format": "mp4",
+      "sizeMB": 42.4,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125146_photo_1792570512_15_162050.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125146_photo_1792570512_15_162050.mp4",
+      "actualBytes": 42397710,
+      "sha256": "c3a86f7c124d397526aa8fba77029b5d91dcdf4059ee302152f818f3d2b446bc",
+      "technical": {
+        "id": "concert-16",
+        "filename": "20261021_125146_photo_1792570512_15_162050.mp4",
+        "key": "uploads/20261021_125146_photo_1792570512_15_162050.mp4",
+        "duration": 66.931667,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "590400/20089",
+        "videoFramesDeclared": "1968",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          2.866667,
+          5.96,
+          8.838333,
+          11.705,
+          14.555,
+          17.421667,
+          20.288333,
+          23.155,
+          26.021667,
+          28.888333,
+          31.755,
+          34.62,
+          37.486667,
+          40.353333,
+          43.22,
+          46.086667,
+          48.953333,
+          51.863333,
+          54.73,
+          57.596667,
+          60.463333,
+          63.33,
+          66.196667
+        ],
+        "sheet": "out/phase3/sheets/concert-16.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 66.9416875,
+          "rmsDbfs": -11.48,
+          "peakDbfs": -0.33,
+          "loudestHalfSecond": {
+            "start": 38.0,
+            "end": 38.5,
+            "rmsDbfs": -7.96,
+            "peakDbfs": -0.4
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Two performers and red stage, highly mobile phone; clear primary performer around 34\u201343 s but camera rotation remains. Strong flare near 63 s. Backup; avoid dark/blocked first seconds.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-16",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 6.0,
+              "end": 7.728
+            },
+            {
+              "start": 7.728,
+              "end": 8.976
+            },
+            {
+              "start": 9.808,
+              "end": 11.104
+            },
+            {
+              "start": 11.104,
+              "end": 12.304
+            },
+            {
+              "start": 13.264,
+              "end": 14.672
+            },
+            {
+              "start": 18.384,
+              "end": 19.872
+            },
+            {
+              "start": 19.872,
+              "end": 22.928
+            },
+            {
+              "start": 22.928,
+              "end": 24.08
+            }
+          ],
+          "speechLikeSeconds": 12.576,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-17",
+      "key": "uploads/20261021_125355_photo_1792570512_16_2B0B52.mp4",
+      "filename": "20261021_125355_photo_1792570512_16_2B0B52.mp4",
+      "format": "mp4",
+      "sizeMB": 76.28,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125355_photo_1792570512_16_2B0B52.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125355_photo_1792570512_16_2B0B52.mp4",
+      "actualBytes": 76278667,
+      "sha256": "2bf297b6fb5c40856e06b0e894a7fcc4169433a245f5aefd08a2019e4413b666",
+      "technical": {
+        "id": "concert-17",
+        "filename": "20261021_125355_photo_1792570512_16_2B0B52.mp4",
+        "key": "uploads/20261021_125355_photo_1792570512_16_2B0B52.mp4",
+        "duration": 120.038333,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "358400/12007",
+        "videoFramesDeclared": "3584",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          5.133333,
+          10.266667,
+          15.4,
+          20.533333,
+          25.666667,
+          30.798333,
+          35.931667,
+          41.065,
+          46.198333,
+          51.331667,
+          56.465,
+          61.598333,
+          66.738333,
+          71.871667,
+          77.003333,
+          82.136667,
+          87.27,
+          92.403333,
+          97.536667,
+          102.67,
+          107.803333,
+          112.936667,
+          118.07
+        ],
+        "sheet": "out/phase3/sheets/concert-17.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 120.04575,
+          "rmsDbfs": -10.11,
+          "peakDbfs": -0.24,
+          "loudestHalfSecond": {
+            "start": 112.0,
+            "end": 112.5,
+            "rmsDbfs": -6.72,
+            "peakDbfs": -0.63
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Supporting graphic-shirt/cap performer and occasional primary performer. Clear supporting performer 9\u201311 s; later attendee close-ups and partially empty stage. Supporting insert only, not mislabeled as the main artist.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-17",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 18.16,
+              "end": 19.28
+            }
+          ],
+          "speechLikeSeconds": 1.12,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-18",
+      "key": "uploads/20261021_125600_photo_1792570512_17_895CF1.mp4",
+      "filename": "20261021_125600_photo_1792570512_17_895CF1.mp4",
+      "format": "mp4",
+      "sizeMB": 76.22,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125600_photo_1792570512_17_895CF1.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125600_photo_1792570512_17_895CF1.mp4",
+      "actualBytes": 76218214,
+      "sha256": "725e97435dfc3118f1d88b133b3cd66a6141275a598c4df5deea0bfd23fa859f",
+      "technical": {
+        "id": "concert-18",
+        "filename": "20261021_125600_photo_1792570512_17_895CF1.mp4",
+        "key": "uploads/20261021_125600_photo_1792570512_17_895CF1.mp4",
+        "duration": 120.006667,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "2113200/72023",
+        "videoFramesDeclared": "3522",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          5.133333,
+          10.266667,
+          15.4,
+          20.533333,
+          25.666667,
+          30.798333,
+          35.931667,
+          41.065,
+          46.198333,
+          51.331667,
+          56.465,
+          61.598333,
+          66.731667,
+          71.858333,
+          76.976667,
+          82.101667,
+          87.235,
+          92.845,
+          97.978333,
+          103.11,
+          108.238333,
+          113.371667,
+          118.505
+        ],
+        "sheet": "out/phase3/sheets/concert-18.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 120.0225,
+          "rmsDbfs": -11.96,
+          "peakDbfs": -0.29,
+          "loudestHalfSecond": {
+            "start": 4.0,
+            "end": 4.5,
+            "rmsDbfs": -8.02,
+            "peakDbfs": -0.93
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Primary/supporting performer alternation, audience selfies, front-row proximity and extensive roll later. Clear early stage views ~15\u201330 s. Mic proximity alone does not establish words or an embrace.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-18",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 0.176,
+              "end": 3.728
+            },
+            {
+              "start": 7.408,
+              "end": 8.624
+            },
+            {
+              "start": 14.32,
+              "end": 16.096
+            },
+            {
+              "start": 16.096,
+              "end": 17.104
+            },
+            {
+              "start": 17.104,
+              "end": 18.192
+            },
+            {
+              "start": 20.272,
+              "end": 21.872
+            },
+            {
+              "start": 22.608,
+              "end": 23.856
+            },
+            {
+              "start": 28.752,
+              "end": 29.872
+            },
+            {
+              "start": 30.448,
+              "end": 31.568
+            },
+            {
+              "start": 32.496,
+              "end": 34.928
+            },
+            {
+              "start": 35.12,
+              "end": 36.432
+            },
+            {
+              "start": 37.776,
+              "end": 39.376
+            },
+            {
+              "start": 39.376,
+              "end": 41.856
+            },
+            {
+              "start": 41.856,
+              "end": 44.272
+            },
+            {
+              "start": 49.04,
+              "end": 50.928
+            },
+            {
+              "start": 53.52,
+              "end": 56.464
+            }
+          ],
+          "speechLikeSeconds": 28.8,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-19",
+      "key": "uploads/20261021_125737_photo_1792570512_18_DCE691.mp4",
+      "filename": "20261021_125737_photo_1792570512_18_DCE691.mp4",
+      "format": "mp4",
+      "sizeMB": 27.73,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125737_photo_1792570512_18_DCE691.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125737_photo_1792570512_18_DCE691.mp4",
+      "actualBytes": 27725883,
+      "sha256": "a08a2e297b801141be308ab2fb6927fd67231eb06a406783ddb2ab31a97e3911",
+      "technical": {
+        "id": "concert-19",
+        "filename": "20261021_125737_photo_1792570512_18_DCE691.mp4",
+        "key": "uploads/20261021_125737_photo_1792570512_18_DCE691.mp4",
+        "duration": 43.651667,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "60000/1001",
+        "averageFps": "77700/2621",
+        "videoFramesDeclared": "1295",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          2.085,
+          3.951667,
+          5.818333,
+          7.686667,
+          9.553333,
+          11.42,
+          13.286667,
+          15.155,
+          17.021667,
+          18.888333,
+          20.755,
+          22.621667,
+          24.49,
+          26.356667,
+          28.223333,
+          30.09,
+          31.958333,
+          33.816667,
+          35.683333,
+          37.55,
+          39.416667,
+          41.283333,
+          43.15
+        ],
+        "sheet": "out/phase3/sheets/concert-19.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 43.6520625,
+          "rmsDbfs": -12.93,
+          "peakDbfs": -0.56,
+          "loudestHalfSecond": {
+            "start": 17.5,
+            "end": 18.0,
+            "rmsDbfs": -8.74,
+            "peakDbfs": -0.62
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Red overhead strips, attendee/self-view, floor, railings and a different-looking stage/screen near 34\u201343 s. Performance identity/location continuity not established. Byte-identical to 25. Excluded from main story pending context.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-19",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-20",
+      "key": "uploads/20261021_125806_photo_1792570512_19_5ED44A.mov",
+      "filename": "20261021_125806_photo_1792570512_19_5ED44A.mov",
+      "format": "mov",
+      "sizeMB": 7.37,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125806_photo_1792570512_19_5ED44A.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125806_photo_1792570512_19_5ED44A.mov",
+      "actualBytes": 7365038,
+      "sha256": "346e6a51ff4b05dce28ec445c1a5c3bee804b377542e13d5a4bcf0f00e18ccc6",
+      "technical": {
+        "id": "concert-20",
+        "filename": "20261021_125806_photo_1792570512_19_5ED44A.mov",
+        "key": "uploads/20261021_125806_photo_1792570512_19_5ED44A.mov",
+        "duration": 27.977188,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "30/1",
+        "videoFramesDeclared": "835",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 1,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          1.2,
+          2.4,
+          3.6,
+          4.8,
+          6.0,
+          7.2,
+          8.4,
+          9.6,
+          10.8,
+          12.0,
+          13.2,
+          14.4,
+          15.6,
+          16.8,
+          18.0,
+          19.2,
+          20.4,
+          21.6,
+          22.8,
+          24.0,
+          25.2,
+          26.4,
+          27.6
+        ],
+        "sheet": "out/phase3/sheets/concert-20.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 27.8885625,
+          "rmsDbfs": -15.06,
+          "peakDbfs": -3.88,
+          "loudestHalfSecond": {
+            "start": 9.0,
+            "end": 9.5,
+            "rmsDbfs": -11.04,
+            "peakDbfs": -4.12
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Primary-performer performance with baked-in English social caption across lower frame. Close microphone images ~12\u201316 s. Prefer cleaner 21 and other originals; do not infer identity from the caption.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-20",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-21",
+      "key": "uploads/20261021_125814_photo_1792570512_20_4A7439.mov",
+      "filename": "20261021_125814_photo_1792570512_20_4A7439.mov",
+      "format": "mov",
+      "sizeMB": 50.7,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125814_photo_1792570512_20_4A7439.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125814_photo_1792570512_20_4A7439.mov",
+      "actualBytes": 50701092,
+      "sha256": "0235891aa373296c46c664e3c8f1941b9a82f19f5c6612b585a3a382228df94a",
+      "technical": {
+        "id": "concert-21",
+        "filename": "20261021_125814_photo_1792570512_20_4A7439.mov",
+        "key": "uploads/20261021_125814_photo_1792570512_20_4A7439.mov",
+        "duration": 24.316667,
+        "width": 1080,
+        "height": 1918,
+        "codec": "h264",
+        "nominalFps": "60/1",
+        "averageFps": "60/1",
+        "videoFramesDeclared": "1459",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 1,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          1.05,
+          2.1,
+          3.15,
+          4.2,
+          5.25,
+          6.3,
+          7.35,
+          8.4,
+          9.45,
+          10.5,
+          11.55,
+          12.6,
+          13.65,
+          14.7,
+          15.75,
+          16.8,
+          17.85,
+          18.9,
+          19.95,
+          21.0,
+          22.05,
+          23.1,
+          24.15
+        ],
+        "sheet": "out/phase3/sheets/concert-21.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 24.3330625,
+          "rmsDbfs": -9.23,
+          "peakDbfs": 0.0,
+          "loudestHalfSecond": {
+            "start": 22.5,
+            "end": 23.0,
+            "rmsDbfs": -7.35,
+            "peakDbfs": -0.23
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Clean upright 60 fps primary performer; frontal gestures 2\u20135 s, advance toward camera 6\u20139 s, bend toward front-row attendee 14.5\u201320.5 s. Strongest personal-memory candidate. Hands/phone/mic visible; no unverified lyric or handshake claim.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-21",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-22",
+      "key": "uploads/20261021_125921_photo_1792570512_21_1558AF.mov",
+      "filename": "20261021_125921_photo_1792570512_21_1558AF.mov",
+      "format": "mov",
+      "sizeMB": 1.02,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125921_photo_1792570512_21_1558AF.mov",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125921_photo_1792570512_21_1558AF.mov",
+      "actualBytes": 1016168,
+      "sha256": "3a813c79a19134e17dfb50fec176f2893d13c3568a7904cb66a15033fe6bb79e",
+      "technical": {
+        "id": "concert-22",
+        "filename": "20261021_125921_photo_1792570512_21_1558AF.mov",
+        "key": "uploads/20261021_125921_photo_1792570512_21_1558AF.mov",
+        "duration": 18.040998,
+        "width": 360,
+        "height": 640,
+        "codec": "h264",
+        "nominalFps": "30/1",
+        "averageFps": "30/1",
+        "videoFramesDeclared": "541",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 1,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          0.8,
+          1.6,
+          2.4,
+          3.2,
+          4.0,
+          4.8,
+          5.6,
+          6.4,
+          7.2,
+          8.0,
+          8.8,
+          9.6,
+          10.4,
+          11.2,
+          12.0,
+          12.8,
+          13.6,
+          14.4,
+          15.2,
+          16.0,
+          16.8,
+          17.6
+        ],
+        "sheet": "out/phase3/sheets/concert-22.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 18.0433125,
+          "rmsDbfs": -8.07,
+          "peakDbfs": 0.0,
+          "loudestHalfSecond": {
+            "start": 11.0,
+            "end": 11.5,
+            "rmsDbfs": -6.13,
+            "peakDbfs": -0.26
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "360\u00d7640 social-sized performance clip, expressive gestures and mic at front row. Visually reviewed but softness limits full-screen use. Prefer higher-resolution sources.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-22",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-23",
+      "key": "uploads/20261021_125922_photo_1792570512_22_A54A96.mp4",
+      "filename": "20261021_125922_photo_1792570512_22_A54A96.mp4",
+      "format": "mp4",
+      "sizeMB": 259.22,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_125922_photo_1792570512_22_A54A96.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_125922_photo_1792570512_22_A54A96.mp4",
+      "actualBytes": 259221579,
+      "sha256": "5f6073c5ce26b72dd20fe43465892fed1c3243ca586d02314921f45022668a97",
+      "technical": {
+        "id": "concert-23",
+        "filename": "20261021_125922_photo_1792570512_22_A54A96.mp4",
+        "key": "uploads/20261021_125922_photo_1792570512_22_A54A96.mp4",
+        "duration": 132.366667,
+        "width": 720,
+        "height": 1280,
+        "codec": "hevc",
+        "nominalFps": "30/1",
+        "averageFps": "30/1",
+        "videoFramesDeclared": "3971",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 1,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          5.633333,
+          11.266667,
+          16.9,
+          22.533333,
+          28.166667,
+          33.8,
+          39.433333,
+          45.066667,
+          50.7,
+          56.333333,
+          61.966667,
+          67.6,
+          73.233333,
+          78.866667,
+          84.5,
+          90.133333,
+          95.766667,
+          101.4,
+          107.033333,
+          112.666667,
+          118.3,
+          123.933333,
+          129.566667
+        ],
+        "sheet": "out/phase3/sheets/concert-23.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 130.5179375,
+          "rmsDbfs": -15.4,
+          "peakDbfs": -0.05,
+          "loudestHalfSecond": {
+            "start": 128.5,
+            "end": 129.0,
+            "rmsDbfs": -8.26,
+            "peakDbfs": -0.05
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "HEVC crowd-view social compilation with baked-in Persian text/Instagram graphics and multiple performers. Useful contextual crowd/phone imagery, but obstructions and captions reduce clean cinematic value. No text-based claim about actual spoken words.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-23",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 0.0,
+              "end": 1.2
+            },
+            {
+              "start": 10.8,
+              "end": 12.112
+            }
+          ],
+          "speechLikeSeconds": 2.512,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-24",
+      "key": "uploads/20261021_130237_photo_1792570512_23_606E74.mp4",
+      "filename": "20261021_130237_photo_1792570512_23_606E74.mp4",
+      "format": "mp4",
+      "sizeMB": 335.26,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_130237_photo_1792570512_23_606E74.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_130237_photo_1792570512_23_606E74.mp4",
+      "actualBytes": 335257811,
+      "sha256": "ead7a041454dc356d8308e62eb88cc597c89bce2dbca6ff045b61cb98d38900e",
+      "technical": {
+        "id": "concert-24",
+        "filename": "20261021_130237_photo_1792570512_23_606E74.mp4",
+        "key": "uploads/20261021_130237_photo_1792570512_23_606E74.mp4",
+        "duration": 61.953542,
+        "width": 3840,
+        "height": 2160,
+        "codec": "hevc",
+        "nominalFps": "120/1",
+        "averageFps": "9675000/163721",
+        "videoFramesDeclared": "3655",
+        "rotationMetadata": [
+          -90
+        ],
+        "audioStreams": [
+          {
+            "index": 1,
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "48000"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          2.651278,
+          5.300156,
+          7.9422,
+          10.591078,
+          13.239933,
+          15.888811,
+          18.532467,
+          21.177267,
+          23.826133,
+          26.4637,
+          29.105022,
+          31.7539,
+          34.402767,
+          37.051644,
+          39.700511,
+          42.349378,
+          44.998256,
+          47.647133,
+          50.296,
+          52.944867,
+          55.593733,
+          58.242611,
+          60.891478
+        ],
+        "sheet": "out/phase3/sheets/concert-24.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 61.952,
+          "rmsDbfs": -14.36,
+          "peakDbfs": -1.11,
+          "loudestHalfSecond": {
+            "start": 0.5,
+            "end": 1.0,
+            "rmsDbfs": -10.33,
+            "peakDbfs": -2.2
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "4K HEVC side-stage perspective with coherent performer/crowd geography, red crowd and white ceiling patterns. Best overall visual backbone. r_frame_rate says 120; average is ~59.09 fps. Camera operator obstructs ~49\u201351 s, rejected in favor of cleaner 32.5\u201334.5 s. Half-speed only, not assumed quarter-speed.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-24",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [
+            {
+              "start": 0.208,
+              "end": 1.744
+            },
+            {
+              "start": 1.808,
+              "end": 3.344
+            },
+            {
+              "start": 3.344,
+              "end": 18.96
+            },
+            {
+              "start": 18.96,
+              "end": 20.08
+            },
+            {
+              "start": 20.432,
+              "end": 21.696
+            },
+            {
+              "start": 21.696,
+              "end": 24.4
+            },
+            {
+              "start": 29.968,
+              "end": 31.328
+            },
+            {
+              "start": 31.328,
+              "end": 33.728
+            },
+            {
+              "start": 33.728,
+              "end": 35.552
+            },
+            {
+              "start": 35.552,
+              "end": 36.848
+            },
+            {
+              "start": 36.88,
+              "end": 39.664
+            },
+            {
+              "start": 39.792,
+              "end": 42.448
+            },
+            {
+              "start": 53.168,
+              "end": 54.704
+            }
+          ],
+          "speechLikeSeconds": 37.632,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    },
+    {
+      "id": "concert-25",
+      "key": "uploads/20261021_130934_photo_1792580968_0_D84E14.mp4",
+      "filename": "20261021_130934_photo_1792580968_0_D84E14.mp4",
+      "format": "mp4",
+      "sizeMB": 27.73,
+      "url": "https://pub-34d142b2772a4ad5b65e811325f580fd.r2.dev/uploads/20261021_130934_photo_1792580968_0_D84E14.mp4",
+      "rangeHttpStatus": "206",
+      "rangeCurlExit": 0,
+      "rangeError": "",
+      "downloadStatus": "downloaded",
+      "localPath": "out/phase3/media/20261021_130934_photo_1792580968_0_D84E14.mp4",
+      "actualBytes": 27725883,
+      "sha256": "a08a2e297b801141be308ab2fb6927fd67231eb06a406783ddb2ab31a97e3911",
+      "technical": {
+        "id": "concert-25",
+        "filename": "20261021_130934_photo_1792580968_0_D84E14.mp4",
+        "key": "uploads/20261021_130934_photo_1792580968_0_D84E14.mp4",
+        "duration": 43.651667,
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "nominalFps": "60000/1001",
+        "averageFps": "77700/2621",
+        "videoFramesDeclared": "1295",
+        "rotationMetadata": [],
+        "audioStreams": [
+          {
+            "index": 0,
+            "codec": "aac",
+            "channels": 1,
+            "sampleRate": "44100"
+          }
+        ],
+        "sheetStatus": "ok",
+        "samplePts": [
+          0.0,
+          2.085,
+          3.951667,
+          5.818333,
+          7.686667,
+          9.553333,
+          11.42,
+          13.286667,
+          15.155,
+          17.021667,
+          18.888333,
+          20.755,
+          22.621667,
+          24.49,
+          26.356667,
+          28.223333,
+          30.09,
+          31.958333,
+          33.816667,
+          35.683333,
+          37.55,
+          39.416667,
+          41.283333,
+          43.15
+        ],
+        "sheet": "out/phase3/sheets/concert-25.jpg",
+        "audioDecodeStatus": "ok",
+        "audioDecodeError": "",
+        "audioSignal": {
+          "duration": 43.6520625,
+          "rmsDbfs": -12.93,
+          "peakDbfs": -0.56,
+          "loudestHalfSecond": {
+            "start": 17.5,
+            "end": 18.0,
+            "rmsDbfs": -8.74,
+            "peakDbfs": -0.62
+          }
+        },
+        "visualSemanticReview": "Timestamped contact sheet actually inspected; sparse visual survey, not continuous playback.",
+        "audioSemanticReview": "not auditioned; only decoding and signal analysis completed",
+        "visualNotes": "Byte-identical to 19; separately accessed and contact sheet examined. Same attendee/railings/different-looking stage content; do not treat as additional independent coverage.",
+        "recognizableVocals": "unverified: audio not auditioned and no successful transcript",
+        "musicalDrops": "unverified: loudness/onset/activity is not evidence of a drop",
+        "speechActivityAnalysis": {
+          "id": "concert-25",
+          "method": "Bundled Silero VAD: speech-like activity only, unreliable on music/crowd; NOT a transcript or verified live-vocal identification.",
+          "speechLikeIntervals": [],
+          "speechLikeSeconds": 0,
+          "semanticAudioReviewComplete": false
+        }
+      }
+    }
+  ]
+}

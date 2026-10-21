@@ -1,34 +1,51 @@
 # THE NIGHT WE LIVED — Leito Concert
 
-**Status: groundwork only. No finished edit or verified render.**
+The active **77.5-second cinematic rough cut** is implemented in Remotion:
+28 shots from 13 original recordings, 2,325 frames at 30 fps, 1080 × 1920.
+It is a visual-approval rough cut; final music synchronization and sound design
+remain pending. The original `R2ConnectionTest` composition is retained.
 
-This Remotion starter connects to a single Cloudflare R2 object from the user's bucket, without putting bulky footage into GitHub. It contains:
-- `R2ConnectionTest`: 10-second 9:16 clip for a **real render test**.
-- `LeitoAftermovie`: a 75-second **placeholder timeline** awaiting source review and editorial decisions.
-- `src/media.ts`: R2 media manifest, including the `uploads/` prefix.
-- `src/timeline.ts`: future editable shot list (currently empty).
-- `scripts/check-r2.mjs`: HTTP byte-range access test (not a codec test).
+**Start here: [Reproduce in GitHub Codespaces](docs/CODESPACES.md).**
 
-## How to test in an environment with Node.js and network access
+## Project files
+
+- `concert-manifest.json`: all 25 exact original object keys and public R2 URLs.
+- `src/rough-cut-plan.json`: editable 28-shot timeline with verified source trims.
+- `src/rough-cut-sequence.tsx`: authored shot nodes regenerated from the plan.
+- `src/rough-cut.tsx` and `src/rough-cut-shot.tsx`: composition, titles, transitions
+  and authentic source-audio playback.
+- `scripts/download-rough-sources.py`: downloads the 13 unique selected originals.
+- `scripts/prepare-rough-cut.py`: reversible portrait working copies and audio.
+- `scripts/render-rough-cut.mjs`: Remotion render and BT.709 delivery preparation.
+- `scripts/verify-rough-cut.py`: complete exported-file verification.
+- [Editorial workflow](docs/phase4/WORKFLOW.md),
+  [previous render results](docs/phase4/RESULT.md), and
+  [footage review](docs/phase3/REPORT.md).
+
+## Local workflow
+
+With Node 24, Python 3, curl, FFmpeg/ffprobe and a supported Chrome browser:
 
 ```bash
-npm install
-npm run check:r2
+npm ci
+npm run prepare:rough
 npm run dev
-npm run render:test
+# Run these only when you want a new export:
+npm run render:rough
+npm run verify:rough
 ```
 
-**Important:** The R2 development URL can be rate-limited. The sample is a `.mov` file; browser support and codec compatibility have **not** been established. If it does not render, inspect its codec and make an H.264/AAC MP4 working copy without destroying the original. A successful browser playback is not equivalent to a Remotion render test.
+The genuine `concert-21` front-row interaction stays at film 37.5–43.5 seconds,
+normal speed with matching original audio. The remaining soundtrack uses
+original same-take concert audio, including unretimed sound under slow-motion
+picture. No generated songs, lyrics, drops or crowd reactions are added.
 
-## Build the real edit
+Originals, working media and exports are ignored. Public R2 downloads need no
+S3 credentials. Keep existing HTTPS proxy settings where required; prefix Node
+network commands with `NODE_USE_ENV_PROXY=1` in the Codex cloud environment.
+The renderer uses `REMOTION_BROWSER_EXECUTABLE`, system Chromium, or Remotion's
+managed browser in that order. The final output is `out/leito-rough-cut-01.mp4`.
 
-1. Get the full object-key list from the R2 dashboard / authorized S3 API. A public `r2.dev` URL does not list bucket contents.
-2. Add exact keys to `src/media.ts`.
-3. Analyze videos and original audio; select genuine highlights and record accurate source in/out frames.
-4. Enter chosen clips in `src/timeline.ts` with their destination positions. No automated analysis has been performed by this repository.
-5. Make a 60–90s emotional, beat-synced cinematic film and use only properly licensed soundtrack material.
-6. Validate previews, audio, crop, and final render before calling it complete.
-
-## Security
-
-The repository is public. **Never commit Cloudflare API keys or signed access links.** Objects at the public R2 development URL are publicly accessible to anyone who knows the URLs. Disable public access or migrate to protected access after testing. Revoke any broad Cloudflare account token created solely for upload.
+This public repository must never contain credentials or signed private URLs.
+Public R2 URLs are accessible to anyone who knows them. The prior verified MP4
+is not committed; see the Codespaces guide for downloading your future export.
